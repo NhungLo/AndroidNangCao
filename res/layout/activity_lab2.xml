@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <TextView
+        android:id="@+id/textViewTieudelab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KHUNG CHƯƠNG TRÌNH"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnlab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB1: khung chương trình word -> webview" />
+
+    <Button
+        android:id="@+id/btnlab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 2: khung chương trình (code)" />
+
+    <Button
+        android:id="@+id/btnlab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 3: Làm trang Login, Quên mật khẩu, Đăng kí" />
+
+    <Button
+        android:id="@+id/btnlab4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 4: Sử dụng camera và tạo mới ứng dụng fpoly.camera.api" />
+
+    <Button
+        android:id="@+id/btnlab5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 5: Animation" />
+
+    <Button
+        android:id="@+id/btnlab6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 6:Các thao tác mạng" />
+
+    <Button
+        android:id="@+id/btnlab7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 7:Thao tác với Contacts" />
+
+    <Button
+        android:id="@+id/btnlab8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAB 8:Bản đồ" />
+
+
+</LinearLayout>
