@@ -10,5 +10,8 @@ public class lab1 extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab1);
+		//
+		int a=10;
+		int b=20;
 	}
 }
