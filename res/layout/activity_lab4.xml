@@ -47,7 +47,7 @@
                 android:id="@+id/TextView02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Áo cổ bẻ "
+                android:text="Áo cổ bẻ 1"
                 android:textSize="30sp" />
 
             <TextView
