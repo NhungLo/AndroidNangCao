@@ -10,6 +10,7 @@ public class lab7 extends  Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab7);
+		int test=1;
 	}
 
 }

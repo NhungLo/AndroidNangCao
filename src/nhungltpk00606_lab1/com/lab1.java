@@ -13,5 +13,6 @@ public class lab1 extends Activity {
 		//
 		int a=10;
 		int b=20;
+		String s="";
 	}
 }
