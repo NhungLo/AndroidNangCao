@@ -10,6 +10,12 @@ package manhinhdieukhienen.com;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int red=0x7f040000;
+        /**  Màu đỏ 
+         */
+        public static final int yellow=0x7f040001;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -18,71 +24,146 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int baby=0x7f020000;
         public static final int bb=0x7f020001;
-        public static final int bbb=0x7f020002;
-        public static final int cap=0x7f020003;
-        public static final int cat=0x7f020004;
-        public static final int ggg=0x7f020005;
-        public static final int hhh=0x7f020006;
+        public static final int button_color=0x7f020002;
+        public static final int cat=0x7f020003;
+        public static final int eg=0x7f020004;
+        public static final int four=0x7f020005;
+        public static final int ggg=0x7f020006;
         public static final int ic_launcher=0x7f020007;
-        public static final int thisissone=0x7f020008;
+        public static final int infor=0x7f020008;
+        public static final int inforr=0x7f020009;
+        public static final int innf=0x7f02000a;
+        public static final int mabb=0x7f02000b;
+        public static final int mayb=0x7f02000c;
+        public static final int mbba=0x7f02000d;
+        public static final int mbbbb=0x7f02000e;
+        public static final int mo=0x7f02000f;
+        public static final int money=0x7f020010;
+        public static final int nhantin=0x7f020011;
+        public static final int oh=0x7f020012;
+        public static final int one=0x7f020013;
+        public static final int phone=0x7f020014;
+        public static final int pluz=0x7f020015;
+        public static final int pluzz=0x7f020016;
+        public static final int set=0x7f020017;
+        public static final int sis=0x7f020018;
+        public static final int sve=0x7f020019;
+        public static final int thisissone=0x7f02001a;
+        public static final int three=0x7f02001b;
+        public static final int tow=0x7f02001c;
     }
     public static final class id {
-        public static final int TextView01=0x7f080013;
-        public static final int TextView02=0x7f080014;
-        public static final int TextView03=0x7f080015;
-        public static final int action_settings=0x7f08001e;
-        public static final int btnlab1=0x7f080008;
-        public static final int btnlab2=0x7f080009;
-        public static final int btnlab3=0x7f08000a;
-        public static final int btnlab4=0x7f08000b;
-        public static final int btnlab5=0x7f08000c;
-        public static final int btnlab6=0x7f08000d;
-        public static final int btnlab7=0x7f08000e;
-        public static final int btnlab8=0x7f08000f;
-        public static final int buttonlogin=0x7f080006;
-        public static final int editTextPsd=0x7f080005;
-        public static final int editTextusername=0x7f080003;
-        public static final int tableRow10=0x7f08001d;
-        public static final int tableRow2=0x7f080011;
-        public static final int tableRow3=0x7f080016;
-        public static final int tableRow4=0x7f080017;
-        public static final int tableRow5=0x7f080018;
-        public static final int tableRow6=0x7f080019;
-        public static final int tableRow7=0x7f08001a;
-        public static final int tableRow8=0x7f08001b;
-        public static final int tableRow9=0x7f08001c;
-        public static final int textView1=0x7f080010;
-        public static final int textView2=0x7f080012;
-        public static final int textViewTieudelab2=0x7f080007;
-        public static final int textViewUserlab2=0x7f080000;
-        public static final int txtLogin=0x7f080001;
-        public static final int txtPassword=0x7f080004;
-        public static final int txtusername=0x7f080002;
+        public static final int TextView01=0x7f090014;
+        public static final int TextView02=0x7f090015;
+        public static final int TextView03=0x7f090016;
+        public static final int action_settings=0x7f090051;
+        public static final int btnCall=0x7f090035;
+        public static final int btnCall2=0x7f09003b;
+        public static final int btnCall3=0x7f090041;
+        public static final int btnCall4=0x7f090047;
+        public static final int btnCall5=0x7f09004d;
+        public static final int btnDetaill=0x7f090037;
+        public static final int btnDetaill2=0x7f09003d;
+        public static final int btnDetaill3=0x7f090043;
+        public static final int btnDetaill4=0x7f090049;
+        public static final int btnDetaill5=0x7f09004f;
+        public static final int btnLogin=0x7f090010;
+        public static final int btnSMS=0x7f090036;
+        public static final int btnSMS2=0x7f09003c;
+        public static final int btnSMS3=0x7f090042;
+        public static final int btnSMS4=0x7f090048;
+        public static final int btnSMS5=0x7f09004e;
+        public static final int btnlab1=0x7f090003;
+        public static final int btnlab2=0x7f090004;
+        public static final int btnlab3=0x7f090005;
+        public static final int btnlab4=0x7f090006;
+        public static final int btnlab5=0x7f090007;
+        public static final int btnlab66=0x7f090008;
+        public static final int btnlab6Back=0x7f090027;
+        public static final int btnlab7=0x7f090009;
+        public static final int btnlab8=0x7f09000a;
+        public static final int btnplz=0x7f090038;
+        public static final int btnplz2=0x7f09003e;
+        public static final int btnplz3=0x7f090044;
+        public static final int btnplz4=0x7f09004a;
+        public static final int btnplz5=0x7f090050;
+        public static final int buttonTinhptbh=0x7f09002f;
+        public static final int editTextSoa=0x7f09002a;
+        public static final int editTextSob=0x7f09002c;
+        public static final int editTextSoc=0x7f09002e;
+        public static final int forgot=0x7f090012;
+        public static final int listViewDanhba=0x7f090020;
+        public static final int pass=0x7f09000f;
+        public static final int register=0x7f090011;
+        public static final int tableRow10=0x7f09001e;
+        public static final int tableRow2=0x7f090013;
+        public static final int tableRow3=0x7f090017;
+        public static final int tableRow4=0x7f090018;
+        public static final int tableRow5=0x7f090019;
+        public static final int tableRow6=0x7f09001a;
+        public static final int tableRow7=0x7f09001b;
+        public static final int tableRow8=0x7f09001c;
+        public static final int tableRow9=0x7f09001d;
+        public static final int textView1=0x7f090028;
+        public static final int textView3=0x7f09000e;
+        public static final int textViewKetquaptbh=0x7f090030;
+        public static final int textViewKqptbh=0x7f090031;
+        public static final int textViewSoa1=0x7f090029;
+        public static final int textViewSob2=0x7f09002b;
+        public static final int textViewSoc3=0x7f09002d;
+        public static final int textViewTieudelab2=0x7f090002;
+        public static final int textViewdb=0x7f09001f;
+        public static final int txtDiachi=0x7f090022;
+        public static final int txtKqua=0x7f090032;
+        public static final int txtSdt=0x7f090034;
+        public static final int txtSdt2=0x7f09003a;
+        public static final int txtSdt3=0x7f090040;
+        public static final int txtSdt4=0x7f090046;
+        public static final int txtSdt5=0x7f09004c;
+        public static final int txtTen=0x7f090021;
+        public static final int txtTenDanhBa=0x7f090033;
+        public static final int txtTendb=0x7f09000b;
+        public static final int txtTendb2=0x7f090039;
+        public static final int txtTendb3=0x7f09003f;
+        public static final int txtTendb4=0x7f090045;
+        public static final int txtTendb5=0x7f09004b;
+        public static final int txtTieude=0x7f090000;
+        public static final int txtTrongluong=0x7f090023;
+        public static final int txtaddress=0x7f090025;
+        public static final int txthoten=0x7f09000c;
+        public static final int txtname=0x7f090024;
+        public static final int txtweight=0x7f090026;
+        public static final int username=0x7f09000d;
+        public static final int webViewbtlb1=0x7f090001;
     }
     public static final class layout {
         public static final int activity_lab1=0x7f030000;
         public static final int activity_lab2=0x7f030001;
         public static final int activity_lab3=0x7f030002;
-        public static final int activity_lab4=0x7f030003;
-        public static final int activity_lab5=0x7f030004;
-        public static final int activity_lab6=0x7f030005;
-        public static final int activity_lab7=0x7f030006;
-        public static final int activity_lab8=0x7f030007;
-        public static final int activity_main=0x7f030008;
+        public static final int activity_lab3_quanli=0x7f030003;
+        public static final int activity_lab4=0x7f030004;
+        public static final int activity_lab5=0x7f030005;
+        public static final int activity_lab6=0x7f030006;
+        public static final int activity_lab6_intent=0x7f030007;
+        public static final int activity_lab7=0x7f030008;
+        public static final int activity_lab7_ketqua=0x7f030009;
+        public static final int activity_lab8=0x7f03000a;
+        public static final int activity_main=0x7f03000b;
+        public static final int item_new=0x7f03000c;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050001;
+        public static final int action_settings=0x7f060002;
+        public static final int app_name=0x7f060000;
+        public static final int hello_world=0x7f060001;
     }
     public static final class style {
         /** 
@@ -106,10 +187,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

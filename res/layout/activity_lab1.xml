@@ -6,85 +6,17 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textViewUserlab2"
+        android:id="@+id/txtTieude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:text="BÀI TẬP LAB 1"
+        android:layout_gravity="center"
+        android:text="BT lab 1"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textStyle="bold"
-         android:layout_marginTop="5dp"
-          android:textColor="#5e9ff1"
-   			/>
+        android:textColor="#fff" />
 
-    <TextView
-        android:id="@+id/txtLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textStyle="bold"
-       android:textSize="40sp"
-       android:textColor="#192df2"
-        android:text="LOGIN " />
-
-    <LinearLayout
+    <WebView
+        android:id="@+id/webViewbtlb1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <TextView
-            android:id="@+id/txtusername"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="fill_vertical"
-             android:textColor="#0870ef"
-             android:textSize="20sp"
-             android:textStyle="bold"
-            android:text="Username " />
-
-        <EditText
-            android:id="@+id/editTextusername"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="fill_vertical"
-            android:layout_weight="1" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <TextView
-            android:id="@+id/txtPassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="fill_vertical"
-            android:textStyle="bold"
-            android:textSize="20sp"
-             android:textColor="#0870ef"
-            android:text="Password" />
-
-        <EditText
-            android:id="@+id/editTextPsd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPassword" >
-
-            <requestFocus />
-        </EditText>
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/buttonlogin"
-        android:layout_width="242dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:textColor="#5e9ff1"
-   		android:background="#f365b9"
-        android:text="Login" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

@@ -2,7 +2,57 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/four"
     android:orientation="vertical" >
-    
+
+    <TextView
+        android:id="@+id/txtTieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="vui lòng nhập 1 từ bất kì"
+        android:text="Intent kèm gói"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nhập họ và tên"
+        android:textColor="#fff"
+        android:textColorHint="#fff" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtDiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nhập địa chỉ"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/txtTrongluong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="trọng lượng"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/btnlab66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gửi"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/button_color"/> />
 
 </LinearLayout>

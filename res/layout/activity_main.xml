@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@style/AppBaseTheme"
+    android:background="@drawable/cat"
     android:orientation="vertical"
     tools:context="manhinhdieukhienen.com.MainActivity" >
 
@@ -10,55 +10,66 @@
         android:id="@+id/textViewTieudelab2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thiết kế giao diện android"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_gravity="center"
+        android:text="ANDROID NÂNG CAO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnlab1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB1" />
+        android:text="BÀI TẬP LAB1"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnlab2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 2" />
+        android:text="BÀI TẬP LAB 2"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnlab3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 3" />
+        android:text="BÀI TẬP LAB 3"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnlab4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 4" />
+        android:text="BÀI TẬP LAB 4"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnlab5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 5" />
+        android:text="BÀI TẬP LAB 5"
+        android:textColor="#fff" />
 
     <Button
-        android:id="@+id/btnlab6"
+        android:id="@+id/btnlab66"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 6" />
+        android:text="BÀI TẬP LAB 6"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnlab7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 7" />
+        android:text="BÀI TẬP LAB 7"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/btnlab8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BÀI TẬP LAB 8" />
+        android:text="BÀI TẬP LAB 8"
+        android:textColor="#fff" />
 
 </LinearLayout>

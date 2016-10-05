@@ -6,7 +6,7 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtTendb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,7 +30,7 @@
             android:foregroundGravity="center_vertical" >
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txthoten"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Số lượng"
@@ -47,7 +47,7 @@
                 android:id="@+id/TextView02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Áo cổ bẻ 1"
+                android:text="Áo cổ bẻ"
                 android:textSize="30sp" />
 
             <TextView

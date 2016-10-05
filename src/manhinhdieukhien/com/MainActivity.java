@@ -1,13 +1,7 @@
 package manhinhdieukhien.com;
-
 import android.app.Activity;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -34,7 +28,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		btnlab3=(Button)findViewById(R.id.btnlab3);
 		btnlab4=(Button)findViewById(R.id.btnlab4);
 		btnlab5=(Button)findViewById(R.id.btnlab5);
-		btnlab6=(Button)findViewById(R.id.btnlab6);
+		btnlab6=(Button)findViewById(R.id.btnlab66);
 		btnlab7=(Button)findViewById(R.id.btnlab7);
 		btnlab8=(Button)findViewById(R.id.btnlab8);
 		

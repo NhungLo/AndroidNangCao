@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/set"
+    android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/txtTenDanhBa"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="DANH BẠ"
+          android:textSize="35dp"
+          android:textColor="#fff"
+          android:textStyle="bold"
+         
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="20dp" >
+
+              <TextView
+                  android:id="@+id/txtTendb"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                   android:textColor="#fff"
+                  android:text="Nguyên bro"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textStyle="bold" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/txtSdt"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="25dp"
+                   android:textColor="#fff"
+                  android:text="+84 978463296"
+                  android:textSize="15dp" />
+
+              <ImageButton
+                  android:id="@+id/btnCall"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="45dp"
+                  android:background="@drawable/phone" />
+
+              <ImageButton
+                  android:id="@+id/btnSMS"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/infor" />
+
+              <ImageButton
+                  android:id="@+id/btnDetaill"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/nhantin" />
+
+              <ImageButton
+                  android:id="@+id/btnplz"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/pluz"
+                  android:src="@drawable/pluz" />
+          </LinearLayout>
+
+      </LinearLayout>
+    
+      
+      
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="20dp" >
+
+              <TextView
+                  android:id="@+id/txtTendb2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                   android:textColor="#fff"
+                  android:text="Nam bro"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textStyle="bold" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/txtSdt2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="25dp"
+                   android:textColor="#fff"
+                  android:text="+84 978463296"
+                  android:textSize="15dp" />
+
+              <ImageButton
+                  android:id="@+id/btnCall2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="45dp"
+                  android:background="@drawable/phone" />
+
+              <ImageButton
+                  android:id="@+id/btnSMS2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/infor" />
+
+              <ImageButton
+                  android:id="@+id/btnDetaill2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/nhantin" />
+
+              <ImageButton
+                  android:id="@+id/btnplz2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/pluz"
+                  android:src="@drawable/pluz" />
+          </LinearLayout>
+
+      </LinearLayout>
+      
+        
+          <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="20dp" >
+
+              <TextView
+                  android:id="@+id/txtTendb3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                   android:textColor="#fff"
+                  android:layout_marginLeft="15dp"
+                  android:text="Sinh bro"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textStyle="bold" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/txtSdt3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="25dp"
+                   android:textColor="#fff"
+                  android:text="+84 978463296"
+                  android:textSize="15dp" />
+
+              <ImageButton
+                  android:id="@+id/btnCall3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="45dp"
+                  android:background="@drawable/phone" />
+
+              <ImageButton
+                  android:id="@+id/btnSMS3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/infor" />
+
+              <ImageButton
+                  android:id="@+id/btnDetaill3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/nhantin" />
+
+              <ImageButton
+                  android:id="@+id/btnplz3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/pluz"
+                  android:src="@drawable/pluz" />
+          </LinearLayout>
+
+      </LinearLayout>
+      
+          
+            <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="20dp" >
+
+              <TextView
+                  android:id="@+id/txtTendb4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                   android:textColor="#fff"
+                  android:text="Anh Tuấn cute"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textStyle="bold" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/txtSdt4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="25dp"
+                   android:textColor="#fff"
+                  android:text="+84 978463296"
+                  android:textSize="15dp" />
+
+              <ImageButton
+                  android:id="@+id/btnCall4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="45dp"
+                  android:background="@drawable/phone" />
+
+              <ImageButton
+                  android:id="@+id/btnSMS4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/infor" />
+
+              <ImageButton
+                  android:id="@+id/btnDetaill4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/nhantin" />
+
+              <ImageButton
+                  android:id="@+id/btnplz4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/pluz"
+                  android:src="@drawable/pluz" />
+          </LinearLayout>
+
+      </LinearLayout>
+      
+              <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="20dp" >
+
+              <TextView
+                  android:id="@+id/txtTendb5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                   android:textColor="#fff"
+                  android:text="Long Dragon"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:textStyle="bold" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/txtSdt5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="25dp"
+                   android:textColor="#fff"
+                  android:text="+84 978463296"
+                  android:textSize="15dp" />
+
+              <ImageButton
+                  android:id="@+id/btnCall5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="45dp"
+                  android:background="@drawable/phone" />
+
+              <ImageButton
+                  android:id="@+id/btnSMS5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/infor" />
+
+              <ImageButton
+                  android:id="@+id/btnDetaill5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/nhantin" />
+
+              <ImageButton
+                  android:id="@+id/btnplz5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="7dp"
+                  android:background="@drawable/pluz"
+                  android:src="@drawable/pluz" />
+          </LinearLayout>
+
+      </LinearLayout>
+    
+    
+    
+    
+</LinearLayout>

@@ -41,7 +41,7 @@
         android:text="LAB 5: Animation" />
 
     <Button
-        android:id="@+id/btnlab6"
+        android:id="@+id/btnlab66"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LAB 6:Các thao tác mạng" />
