@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="16"
         android:targetSdkVersion="23" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -35,6 +35,7 @@
         <activity android:name="nhungltpk00606_lab8.com.lab8" android:label="lab8"></activity>
        <activity android:name="nhungltpk00606_lab3.com.quanli" android:label="lab3" ></activity>
        <activity android:name="nhungltpk00606_lab6.com.lab6_intent" android:label="lab6 Intent"></activity>
+       <activity android:name="nhungltpk00606_lab8.com.lab8_thongbao" android:label="lab8_thongbao"></activity>
         
         
     </application>
