@@ -1,6 +1,7 @@
 package nhungltpk00606_lab7.com;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import manhinhdieukhienen.com.R;
 
 public class lab7 extends  Activity{
 	EditText editTextSoa, editTextSob, editTextSoc;
-	TextView textViewKqptbh;
+	TextView txtkqptbh,kkq;
 	Button buttonTinhptbh;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,14 +22,14 @@ public class lab7 extends  Activity{
 		editTextSoa=(EditText)findViewById(R.id.editTextSoa);
 		editTextSob=(EditText)findViewById(R.id.editTextSob);
 		editTextSoc=(EditText)findViewById(R.id.editTextSoc);
-		textViewKqptbh=(TextView)findViewById(R.id.textViewKqptbh);
-		buttonTinhptbh=(Button)findViewById(R.id.buttonTinhptbh);
-		
+		kkq=(TextView)findViewById(R.id.txtKqlabbb7);
+		txtkqptbh=(TextView)findViewById(R.id.txtKqlabb7);
+		buttonTinhptbh=(Button)findViewById(R.id.btntinhkq);
 		buttonTinhptbh.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				
+			    Intent intent=new Intent(getApplication(),lab7_ketqua.class);
 				int a, b, c;
 		        double x1,x2;
 		        a = Integer.valueOf(editTextSoa.getText().toString());
@@ -37,37 +38,27 @@ public class lab7 extends  Activity{
 		        double dental;
 		        dental=(b*b) -(4*a*c);
 		      
-		        if(a==0){
-		            x1=c/b;
-		            x2=x1;
-		            textViewKqptbh.setText(String.valueOf(x1)+" , "+String.valueOf(x2));
-		        }
 		        if(dental>0){
 		            x1=(-b +Math.sqrt(dental))/(2*a);
-
 		            x2=(-b- Math.sqrt(dental))/(2*a);
 		            x1=Math.round(x1);
 		            x2=Math.round(x2);
-		            textViewKqptbh.setText(String.valueOf(x1)+" , "+String.valueOf(x2));
+		            intent.putExtra("kq", "pt có 2 nghiệm x1= "+x1+"\nx2="+x2);
+			        startActivity(intent);
 		        }else
 		        if(dental==0){
 		            x1= -b/(2*a);
 		            x2=x1;
 		            x1=Math.round(x1);
-		            x2=Math.round(x2);
-		           textViewKqptbh.setText(String.valueOf(x1)+" , "+String.valueOf(x2));
+		            x2=Math.round(x2);		          
+		           intent.putExtra("kq", "pt có 2 nghiệm phân biệt x1="+x1+"\n x2= "+x2);
+			        startActivity(intent);
 		        }else
-		        if(dental<0)
-		        {
-		            Toast.makeText(
-		                    getApplicationContext(),
-		                    "phương trình vô nghiệm!",
-		                    Toast.LENGTH_SHORT).show();
+		        if(dental<0){   
+		            intent.putExtra("kq", "PT vô nghiệm");
+			        startActivity(intent);
 		        }
-
-
-		    }
-		   
+		    }  
 		});
 	}
 	

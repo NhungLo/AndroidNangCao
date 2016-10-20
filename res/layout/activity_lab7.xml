@@ -94,30 +94,32 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/buttonTinhptbh"
-            android:textColor="#1B5EE8"
+            android:id="@+id/btntinhkq"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="Tính" 
-            android:background="@drawable/button_color"/>/>
+            android:background="@drawable/button_color"
+            android:text="Tính"
+            android:textColor="#1B5EE8"
+            android:textStyle="bold" />
+/>
 
     </LinearLayout>
-
-    <LinearLayout
+<LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" >
 
         <TextView
-            android:id="@+id/textViewKetquaptbh"
-            android:textColor="#1B5EE8"
+            android:id="@+id/txtKqlabb7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kết quả"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:text="Kết quả là: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#1B5EE8" />
 
         <TextView
-            android:id="@+id/textViewKqptbh"
+            android:id="@+id/txtKqlabbb7"
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
@@ -126,5 +128,6 @@
             android:textColor="#E8CB00" />
 
     </LinearLayout>
+    
 
 </LinearLayout>
