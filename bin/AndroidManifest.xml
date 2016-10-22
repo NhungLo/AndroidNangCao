@@ -32,6 +32,7 @@
         <activity android:name="nhungltpk00606_lab5.com.lab5" android:label="lab5"></activity>
         <activity android:name="nhungltpk00606_lab6.com.lab6" android:label="lab6"></activity>
         <activity android:name="nhungltpk00606_lab7.com.lab7" android:label="lab7"></activity>
+        <activity android:name="nhungltpk00606_lab7.com.lab7_ketqua"></activity>
         <activity android:name="nhungltpk00606_lab8.com.lab8" android:label="lab8"></activity>
        <activity android:name="nhungltpk00606_lab3.com.quanli" android:label="lab3" ></activity>
        <activity android:name="nhungltpk00606_lab6.com.lab6_intent" android:label="lab6 Intent"></activity>
